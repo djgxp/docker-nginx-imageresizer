@@ -1,0 +1,7 @@
+nginx-resizer:
+  build: .
+  ports:
+    - "8999:80"
+    - "2323:22"
+  volumes:
+    - ~/www/nginx-resizer/www:/var/www/html/img.purch.com
